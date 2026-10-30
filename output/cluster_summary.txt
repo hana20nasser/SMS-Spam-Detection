@@ -1,0 +1,12 @@
+K-Means / MiniBatchKMeans over TF-IDF; k=2 (exploratory two-category hypothesis)
+Cluster 0: 122 messages; prominent terms: claim, prize, urgent, won, cash, ppm, guaranteed, award, holiday, selected, receive, box
+Cluster 1: 5047 messages; prominent terms: ok, like, gt, lt, come, just, ll, good, know, free, ur, going
+Cosine silhouette on deterministic sample of 800: 0.0069
+Adjusted Rand index vs known labels: 0.2521
+
+Known-label proportions within each unsupervised cluster:
+label      ham   spam
+cluster              
+0        0.000  1.000
+1        0.895  0.105
+Interpretation: cluster topics inferred from top terms, not predefined class names. Cluster IDs need not equal class IDs. Weak alignment or low silhouette indicates heterogeneous SMS themes.

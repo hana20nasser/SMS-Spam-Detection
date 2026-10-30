@@ -1,0 +1,16 @@
+Supervised model comparison (held-out 20% test split, stratified, seed=42)
+LogisticRegression: accuracy=0.9749, macro_precision=0.9360, macro_recall=0.9530, macro_f1=0.9443
+MultinomialNB: accuracy=0.9632, macro_precision=0.9798, macro_recall=0.8550, macro_f1=0.9049
+Selected model: LogisticRegression (highest macro-F1)
+
+Classification report:
+              precision    recall  f1-score   support
+
+         ham       0.99      0.98      0.99       903
+        spam       0.88      0.92      0.90       131
+
+    accuracy                           0.97      1034
+   macro avg       0.94      0.95      0.94      1034
+weighted avg       0.98      0.97      0.98      1034
+
+Limitation: historic English SMS may not generalize to newer languages, campaigns or drift. Also, text preprocessing removes some spam-specific punctuation.
