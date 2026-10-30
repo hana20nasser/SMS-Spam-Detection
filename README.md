@@ -168,3 +168,6 @@ Open http://localhost:8889/lab?token=assignment1 , select `notebook/analysis.ipy
 - [ ] Final ZIP created from the **entire `bd-a1/` folder** and inspected for all required files.
 
 **Verification status (October 30, 2026):** Local Docker build, notebook execution, result generation, Docker Hub push, and independent team-member execution were reported and supported by terminal results or screenshots. Team screenshots have been collected in the project submission folder. The final ZIP still needs to be created and checked.
+## GitHub Repository
+
+https://github.com/hana20nasser/SMS-Spam-Detection
